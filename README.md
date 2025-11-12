@@ -6,6 +6,7 @@ Using VHDX for disk snapshot and MFC for UI
 
 DiskSnapshot is a Windows application for creating disk snapshots using the VHDX format. It provides a graphical user interface (GUI) built with Microsoft Foundation Classes (MFC), making it easy to manage and snapshot disks directly from your desktop.
 
+<<<<<<< HEAD
 ## Develop Process
 - **Front End (UI):** Mostly Done (Button mapping remain undone)
 - **Back End:** Just Basic Idea
@@ -17,6 +18,8 @@ DiskSnapshot is a Windows application for creating disk snapshots using the VHDX
 - - 2.Base Knowledge (Build a base VHDX or migrate still require a lot of skills)
 - - 3.Protential Unstable (It hasn't been fully tested) (eg. Diff VHDX chain is easy to break)
 
+=======
+>>>>>>> refs/remotes/origin/main
 ## Features
 
 - **VHDX-Based Snapshots:** Capture disk states using Microsoft's VHDX virtual disk format.
