@@ -1,0 +1,6 @@
+<systems>
+	<vhdx_node name="Win10Base" timestamp="2025-01-01T19:00:00" description="系统原始" path="C:\snap\base.vhdx" parent="" />
+	<vhdx_node name="Win10Update1" timestamp="2025-02-01T20:00:00" description="补丁后" path="C:\snap\update1.vhdx" parent="Win10Base" />
+	<vhdx_node name="Win10Gaming" timestamp="2025-03-01T20:00:00" description="补丁后" path="C:\snap\Gaming.vhdx" parent="Win10Update1" />
+	<vhdx_node name="Win10Dev" timestamp="2025-02-28T20:00:00" description="补丁后" path="C:\snap\dev.vhdx" parent="Win10Base" />
+</systems>
