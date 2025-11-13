@@ -7,6 +7,7 @@
 #include "VHDXSnap02.h"
 #include "VHDXSnap02Dlg.h"
 #include "afxdialogex.h"
+#include "MyAboutBox.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -66,6 +67,12 @@ BEGIN_MESSAGE_MAP(CVHDXSnap02Dlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_WM_LBUTTONDOWN()
+	ON_STN_CLICKED(IDC_STATIC_HELP, &CVHDXSnap02Dlg::OnStnClickedStaticHelp)
+	ON_BN_CLICKED(IDC_BUTTON_SHOT, &CVHDXSnap02Dlg::OnBnClickedButtonShot)
+	ON_BN_CLICKED(IDC_BUTTON_DEL, &CVHDXSnap02Dlg::OnBnClickedButtonDel)
+	ON_BN_CLICKED(IDC_BUTTON_REC, &CVHDXSnap02Dlg::OnBnClickedButtonRec)
+	ON_BN_CLICKED(IDC_BUTTON_SWI, &CVHDXSnap02Dlg::OnBnClickedButtonSwi)
+	ON_BN_CLICKED(IDC_BUTTON_FOR, &CVHDXSnap02Dlg::OnBnClickedButtonFor)
 END_MESSAGE_MAP()
 
 
@@ -190,4 +197,44 @@ void CVHDXSnap02Dlg::OnLButtonDown(UINT nFlags, CPoint point)
 	CDialogEx::OnLButtonDown(nFlags, point);
 	Invalidate();
 	UpdateWindow();
+}
+
+
+void CVHDXSnap02Dlg::OnStnClickedStaticHelp()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	MyAboutBox *aboutbox=new MyAboutBox;
+	aboutbox->Create(IDD_ABOUTBOX);
+	aboutbox->ShowWindow(SW_SHOW);
+	//aboutbox.ShowWindow(SW_SHOW);
+}
+
+
+void CVHDXSnap02Dlg::OnBnClickedButtonShot()
+{
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CVHDXSnap02Dlg::OnBnClickedButtonDel()
+{
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CVHDXSnap02Dlg::OnBnClickedButtonRec()
+{
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CVHDXSnap02Dlg::OnBnClickedButtonSwi()
+{
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CVHDXSnap02Dlg::OnBnClickedButtonFor()
+{
+	// TODO: 在此添加控件通知处理程序代码
 }

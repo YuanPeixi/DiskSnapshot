@@ -33,4 +33,10 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
+	afx_msg void OnStnClickedStaticHelp();
+	afx_msg void OnBnClickedButtonShot();
+	afx_msg void OnBnClickedButtonDel();
+	afx_msg void OnBnClickedButtonRec();
+	afx_msg void OnBnClickedButtonSwi();
+	afx_msg void OnBnClickedButtonFor();
 };

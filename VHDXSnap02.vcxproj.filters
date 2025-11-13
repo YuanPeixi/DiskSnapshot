@@ -48,6 +48,9 @@
     <ClInclude Include="DiskOperation.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MyAboutBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="VHDXSnap02.cpp">
@@ -63,6 +66,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SnapshotGraphDrawer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAboutBox.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
